@@ -1,3 +1,3 @@
-﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(387,5): warning MSB8028: 중간 디렉터리(Debug\)에 다른 프로젝트(Project13.vcxproj)에서 공유하는 파일이 포함되어 있습니다.  이로 인해 잘못된 정리 및 다시 빌드 동작이 수행될 수 있습니다.
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(411,5): warning MSB8028: 중간 디렉터리(Debug\)에 다른 프로젝트(Project13.vcxproj)에서 공유하는 파일이 포함되어 있습니다.  이로 인해 잘못된 정리 및 다시 빌드 동작이 수행될 수 있습니다.
   doubleLinkedList.c
-  Project13.vcxproj -> C:\Users\Administrator\Desktop\Project13\Debug\보안프로그래밍(N)_텀프_5조.exe
+  Project13.vcxproj -> C:\Users\hscom-001\Desktop\HSU_SecuredPrograming\HSU_SPP\Project\Debug\보안프로그래밍(N)_텀프_5조.exe
