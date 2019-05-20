@@ -18,19 +18,22 @@ Node* listInit(Node* head) {
 void printList(Node* head) {
 	Node* p;
 	for(p = head->next; p != head; p = p->next)
-		printf("[%d] ", p->size);
+		printf("[%p,%d] ", (void*)p->addr, p->size);
 	printf("\n");
 }
 
 
 // head의 오른쪽(next)에 삽입
-void insert(Node* head, int value) {
+Node* insert(Node* head, int value1, int value2) {
 	Node* newNode  = (Node*)malloc(sizeof(Node));	// 새 노드 생성
-	newNode->size = value;
+	newNode->addr = (int)value1;
+	newNode->size = value2;
 	newNode->prev = head;
 	newNode->next = head->next;
 	(head->next)->prev = newNode;
 	head->next = newNode;
+
+	return newNode;
 }
 
 
@@ -45,7 +48,7 @@ void delete(Node* head, Node* target) {
 	(target->next)->prev = target->prev;
 	free(target);
 }
-
+/*
 int main() {
 
 	// 리스트의 헤더노드 생성 및 초기화
@@ -60,3 +63,4 @@ int main() {
 	delete(head, head->next);
 	printList(head);
 }
+*/
