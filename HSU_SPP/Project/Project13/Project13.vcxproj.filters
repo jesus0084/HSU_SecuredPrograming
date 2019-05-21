@@ -23,5 +23,11 @@
     <ClCompile Include="doubleLinkedList.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="main.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="worstFit.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
