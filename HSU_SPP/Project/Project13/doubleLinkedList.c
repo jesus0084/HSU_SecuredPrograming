@@ -1,7 +1,7 @@
 /* 이중 연결 리스트 */
-#include "doubleLinkeList.h"
 #include <stdio.h>
 #include <stdlib.h>
+#include "myHeader.h"
 
 
 // 리스트 초기화
@@ -48,19 +48,3 @@ void delete(Node* head, Node* target) {
 	(target->next)->prev = target->prev;
 	free(target);
 }
-/*
-int main() {
-
-	// 리스트의 헤더노드 생성 및 초기화
-	Node* head = (Node*)malloc(sizeof(Node));
-	head = listInit(head);
-
-	insert(head, 3);
-	insert(head, 4);
-	printList(head);
-	delete(head, head->next);
-	printList(head);
-	delete(head, head->next);
-	printList(head);
-}
-*/
