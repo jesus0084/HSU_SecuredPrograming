@@ -1,11 +1,11 @@
 ﻿  bestAlloc.c
-c:\users\songb\source\c언어 연습 폴더\보안프로그래밍(n)_텀프5조\보안프로그래밍(n)_텀프5조\bestalloc.c(34): warning C4047: 'return': 'Node *'의 간접 참조 수준이 'int'과(와) 다릅니다.
+c:\users\songb\desktop\hsu_securedprograming\보안프로그래밍(n)_텀프5조\보안프로그래밍(n)_텀프5조\bestalloc.c(34): warning C4047: 'return': 'Node *'의 간접 참조 수준이 'int'과(와) 다릅니다.
   doubleLinkedList.c
   main.c
   memoryOpt.c
-c:\users\songb\source\c언어 연습 폴더\보안프로그래밍(n)_텀프5조\보안프로그래밍(n)_텀프5조\memoryopt.c(17): warning C4098: 'memoryOpt': 'void' 함수에서 값을 반환하고 있습니다.
+c:\users\songb\desktop\hsu_securedprograming\보안프로그래밍(n)_텀프5조\보안프로그래밍(n)_텀프5조\memoryopt.c(17): warning C4098: 'memoryOpt': 'void' 함수에서 값을 반환하고 있습니다.
   myFree.c
   worstAlloc.c
-c:\users\songb\source\c언어 연습 폴더\보안프로그래밍(n)_텀프5조\보안프로그래밍(n)_텀프5조\worstalloc.c(30): warning C4047: 'return': 'Node *'의 간접 참조 수준이 'int'과(와) 다릅니다.
+c:\users\songb\desktop\hsu_securedprograming\보안프로그래밍(n)_텀프5조\보안프로그래밍(n)_텀프5조\worstalloc.c(30): warning C4047: 'return': 'Node *'의 간접 참조 수준이 'int'과(와) 다릅니다.
   코드를 생성하고 있습니다...
-  보안프로그래밍(N)_텀프5조.vcxproj -> C:\Users\songb\source\C언어 연습 폴더\보안프로그래밍(N)_텀프5조\Debug\보안프로그래밍(N)_텀프5조.exe
+  보안프로그래밍(N)_텀프5조.vcxproj -> C:\Users\songb\Desktop\HSU_SecuredPrograming\보안프로그래밍(N)_텀프5조\Debug\보안프로그래밍(N)_텀프5조.exe

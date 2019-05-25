@@ -14,7 +14,7 @@ void memoryOpt(char* buf, Node* allocHead, Node* emptyHead) {
 	// 메모리 최적화 할 필요가 없음
 	if(allocHead->next == allocHead || emptyHead->next->next == emptyHead) {
 		fprintf(stdout, "[+] memoryOpt() : 메모리가 깨끗한 상태입니다.\n");
-		return 0;
+		return;
 	}
 
 	// 할당된 공간의 값들을 저장할 임시 배열 선언 및 초기화
