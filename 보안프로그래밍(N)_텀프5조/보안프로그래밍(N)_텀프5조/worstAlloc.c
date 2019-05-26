@@ -43,8 +43,10 @@ Node* worstAlloc(char* buf, char ch, int size) {
 	// 할당된 공간 리스트에 추가
 	newNode = insert(allocHead, worstNode->addr, size);
 
-	// 할당된 공간으로 인하여, 비어있는 공간 리스트를 수정하는 작업
-	insert(emptyHead, worstNode->addr+size, (worstNode->size) - size);
+	// 할당된 공간으로 인하여, 빈 공간 리스트를 수정하는 작업
+	// 만약 메모리공간이 꽉 찼다면 노드 삭제만 실행.
+	if((worstNode->addr + size) - (int)buf < BUF_SIZE)
+		insert(emptyHead, worstNode->addr + size, (worstNode->size) - size);
 	delete(emptyHead, worstNode);
 
 	return newNode;	// 새로 추가된 노드 주소 반환
